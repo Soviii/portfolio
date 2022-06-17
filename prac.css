@@ -1,0 +1,178 @@
+body {
+    text-align: center;
+    margin: 80px auto 8px;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color:#D2E4F1;
+    color: #484D51;
+}
+
+.intro-section-div {
+    background-color: #D2E4F1;
+    
+    position: relative; 
+    top: 50px;
+    /* might not need this; tried to fix div bg-color not spanning completely when window is halved */
+
+
+}
+
+.interests-section-div {
+    background-color: #c9dce9;
+    position: relative;
+    top: 700px;
+    
+}
+.education-section-div {
+    background-color: #c1d4e1;
+    margin: 0px;
+    position: relative;
+    top: 1600px;
+}
+
+.skills-section-div {
+    background-color: #b8ccd9; 
+    margin: 0px;
+    position: relative;
+    top: 2000px;
+}
+
+.projects-section-div {
+    background-color: #b0c4d1; 
+    margin: 0px;
+    position: relative;
+    top: 2600px;
+}
+h1 {
+    margin: 0px auto 0px;
+    font-size: 5rem;
+    
+}
+
+h2 {
+    margin: 0px;
+    font-family: 'Offside', cursive;
+    font-size: 2.80rem;
+}
+
+p {
+    margin: 0px auto 70px;
+    font-family: 'Comic Neue', sans-serif;
+    width: 65%;
+    font-size: 1.875rem;
+    padding: 0px;
+}
+
+hr {
+    border: solid black;
+    margin: 100px 0px 100px;
+}
+
+.school-logo {
+    border-radius: 50px;
+    height: 200px;
+    background-color: white;
+}
+
+table {
+    margin: 0px auto 80px;
+}
+
+tr {
+    margin: 0px, auto, 0px;
+}
+
+td {
+    font-family: 'Comic Neue', sans-serif;
+    font-size: 1.875rem;
+}
+
+.pic-column {
+   width: 0%;
+}
+
+.skill-text-column {
+    width: 33%;
+}
+#interests2-gif {
+    border-radius: 50px;
+}
+ 
+#sovi-img {
+    height: 300px;
+    margin: 0px;
+    border-radius: 60px;
+}
+
+#coding1-image {
+    height: 350px;
+}
+
+#coding2-image {
+    height: 350px;
+}
+
+/* CSS for waves (from shapedivider.app) */
+/* First Wave */
+.custom-shape-divider-top-1655453691 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655453691 svg {
+    position: relative;
+    
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 98px;
+}
+
+.custom-shape-divider-top-1655453691 .shape-fill {
+    fill: #D2E4F1;
+}
+
+/* Second Wave */
+.custom-shape-divider-top-1655458976 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655458976 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 98px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1655458976 .shape-fill {
+    fill: #C9DCE9;
+}
+
+/* Third Wave */
+.custom-shape-divider-top-1655462035 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655462035 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 142px;
+}
+
+.custom-shape-divider-top-1655462035 .shape-fill {
+    fill: #c1d4e1;
+}
