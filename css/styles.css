@@ -1,0 +1,524 @@
+body {
+    /* only aligns containers/tags that don't have a width set */
+    text-align: center;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/margin */
+    margin: 0px auto 0px;
+    
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color:#D2E4F1;
+    color: #484D51;
+}
+
+
+/* Social Link Div (fixed div) */
+
+.follow-section {
+    position: fixed;
+    background-color: white;
+    width: 54px;
+    height: 49px;
+    z-index: 100;
+    border-bottom-right-radius: 30px;
+    transition: height .5s ease-in-out, background-color .5s ease-in-out, border-bottom-right-radius .5s ease-in-out;
+
+}
+
+.follow-section:hover{
+    height: 166px;
+    background-color: gray;
+    border-bottom-right-radius: 20px;
+}
+
+
+.social-links-p {
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    position: absolute;
+    left: 3px;
+}
+
+.follow-section:hover > .social-links-p {
+    opacity: 0;
+    z-index: -1;
+}
+
+.social-icon {
+    opacity: 0;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.follow-section:hover  .social-icon {
+    transition: opacity .5s linear;
+    transition-delay: .5s;
+    opacity: 1;
+}
+
+.social-form {
+    margin: 5px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+
+
+
+/* Introduction Section */
+.intro-section-div {
+    background-color: #D2E4F1;
+    position: relative; 
+    top: 50px;
+    
+}
+
+#sovi-img {
+    height: 600px;
+    margin: 0px;
+    border-radius: 60px;
+}
+
+/* Interest Section */
+.interests-section-div {
+    background-color: #c9dce9;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+}
+
+.interest-details {
+    width: 70%;
+}
+
+.interest-cell {
+    width: 33%;
+}
+ 
+.interest-dynamic-image {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 50px;
+}
+
+
+
+
+/* Education Section */
+.education-section-div {
+    background-color: #c1d4e1;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+}
+
+.absent-bullets {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.school-text-cell {
+    width: 33%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.school-description {
+    margin: 0px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 2.65rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.school-award-em {
+    text-decoration: underline;
+    font-size: 2.25rem;   
+}
+.school-logo {
+    border-radius: 50px;
+    background-color: white;
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+
+/* Project Section */
+.projects-section-div {
+    background-color: #b8ccd9; 
+    margin: 0px;
+    position: relative;
+}
+.project-dynamic-image {
+    border-radius: 40px;
+    height: auto;
+    width: 100%;
+    max-width: 450px;
+}
+
+.project-cell1 {
+    width: 33%;
+}
+
+.project-cell2 {
+    width: 50%;
+}
+
+.project-cell-text {
+    width: 80%
+}
+
+
+
+
+
+/* Skills Section */
+.skills-section-div {
+    background-color: #b0c4d1; 
+    margin: 0px;
+    position: relative;
+}
+
+.programming-table {
+    margin: 0px auto 0px;
+    padding: 0px 0px 100px;;
+}
+
+.programming-table-cell {
+    padding-right: 30px;
+    font-size: 2.70rem;
+}
+
+.programming-text-cell {
+        width: 33%;
+        margin-left: 30px;
+        margin-right: 30px;
+}
+
+.skills-dynamic-image {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+/* Work Section */
+.experience-section-div {
+    background-color: #a7bcc9;
+    margin: 0px;
+    position: relative;
+}
+
+#work-table {
+    margin: 0px 100px 0px;
+    padding-bottom: 0px;
+}
+
+.work-name-h2 {
+    text-align: left;
+}
+.work-date-cell {
+    vertical-align: top;
+    text-align: right;
+    width: 50%;
+}
+
+.work-area-h3 {
+    text-align: left;
+}
+
+.work-desc-p {
+    width: 50%;
+    text-align: left;
+    margin: 0px;
+    font-size: 2rem;
+    padding-bottom: 100px;
+}
+
+.work-images-cell {
+    padding: 0px 100px 0px;
+}
+
+
+/* Hobbies Classes */
+.hobbies-section-div {
+    background-color: #9fb4c2;
+    margin: 0px;
+    position: relative;
+}
+
+.hobbies-cell {
+    width: 33%;
+}
+
+.hobbies-dynamic-image {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+
+/* Footnote Classes*/
+.footnote-section-div {
+    background-color: #96acba;
+    margin: 0px;
+    position: relative;
+}
+
+.thanks-h1 {
+    padding-top: 200px;
+}
+.footnote-links {
+    padding-right: 40px;
+    font-size: 2.5rem;
+}
+
+.footnote-table {
+    padding-bottom: 0px;
+}
+
+.footnote-copyright {
+    margin: 10px auto 0px;
+}
+
+
+
+/* original tags */
+h1 {
+    margin: 0px auto 0px;
+    font-size: 5rem;
+    /*in percentages, 100% is ~16px. So, if I wanted size of 50px, then 50/16 = 3.125. Also, 1em is the old way of telling size. 1em ~16px. Pixels are static while em and % are dynamic. Em stacks on inherited attributes (i.e. if in body font-size is 2em and in h2 its 4em, it will be 6em when displayed.) In latest CSS, rem is root em. This does not stack when multiple font-size calls are made. rem is most preferred.*/
+    font-family: 'Gloria Hallelujah';
+}
+
+h2 {
+    margin: 0px;
+    font-family: 'Offside', cursive;
+    font-size: 3.25rem;  
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Offside', cursive;
+    font-size: 2.8rem;   
+}
+
+pre {
+    margin: 0px;
+    font-family: 'Offside', cursive;
+    font-size: 2.80rem;
+    font-weight: bold;
+}
+
+p {
+    margin: 0px auto 70px;
+    font-family: 'Comic Neue', sans-serif;
+    width: 40%;
+    font-size: 2.25rem;
+    padding: 0px;
+}
+
+em {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+hr {
+    border: none;
+    margin: 100px 0px 100px;
+}
+
+table {
+    margin: 0px auto 0px;
+    padding: 0px 0px 100px;
+}
+
+tr {
+    margin: 0px, auto, 0px;
+   
+}
+
+td {
+    font-family: 'Comic Neue', sans-serif;
+    font-size: 2.30rem;
+}
+
+
+/* Unique Changes. Sorted by sections */
+
+
+/* Universal */
+.dynamic-image {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+
+
+
+
+/* CSS for waves (from shapedivider.app) */
+/* First Wave */
+.custom-shape-divider-top-1655453691 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655453691 svg {
+    position: relative;
+    
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 98px;
+}
+
+.custom-shape-divider-top-1655453691 .shape-fill {
+    fill: #D2E4F1;
+}
+
+/* Second Wave */
+.custom-shape-divider-top-1655458976 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655458976 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 98px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1655458976 .shape-fill {
+    fill: #C9DCE9;
+}
+
+/* Third Wave */
+.custom-shape-divider-top-1655487498 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655487498 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 142px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1655487498 .shape-fill {
+    fill: #c1d4e1;
+}
+
+
+/* Fourth Wave */
+.custom-shape-divider-top-1655462035 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655462035 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 142px;
+}
+
+.custom-shape-divider-top-1655462035 .shape-fill {
+    fill: #b8ccd9;
+}
+
+/* Fifth Wave */
+.custom-shape-divider-top-1655489750 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1655489750 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 142px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1655489750 .shape-fill {
+    fill: #b0c4d1;
+}
+/* Sixth Wave */
+.custom-shape-divider-top-1655491403 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1655491403 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-top-1655491403 .shape-fill {
+    fill: #A7BCC9;
+}
+/* Seventh Wave */
+.custom-shape-divider-top-1655491279 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655491279 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1655491279 .shape-fill {
+    fill: #9FB4C2;
+}
+
