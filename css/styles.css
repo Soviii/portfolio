@@ -115,7 +115,7 @@ body {
 }
 
 .school-table {
-    margin: 0px 100px 0px;
+    margin: 0px auto 0px;
     padding-bottom: 50px;
 }
 .absent-bullets {
@@ -196,17 +196,19 @@ body {
 }
 
 .skills-table {
-    margin: 0px 80px 0px;
-    padding-bottom: 0px;
+    margin: 0px auto 0px;
+    padding: 0px 120px 0px;
+   
 }
 .programming-table {
     margin: 0px auto 0px;
-    padding: 0px 0px 100px;;
+    padding: 0px 0px 50px;
+    text-align: center;
 }
 
 .programming-table-cell {
     padding-right: 30px;
-    font-size: 2.70rem;
+    font-size: 2.3rem;
 }
 
 .programming-text-cell {
@@ -230,8 +232,8 @@ body {
 }
 
 #work-table {
-    margin: 0px 100px 0px;
-    padding-bottom: 0px;
+    margin: 0px auto 0px;
+    padding: 0px 240px 0px;
 }
 
 .work-name-h2 {
@@ -262,7 +264,7 @@ body {
 .work-dynamic-image {
     height: auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 370px;
 }
 
 /* Hobbies Classes */
