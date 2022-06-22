@@ -284,9 +284,11 @@ body {
 .hobbies-table {
     margin: 0px 170px 0px;
 }
+
 .hobbies-cell {
     width: 33%;
     padding: 0px 80px 0px;
+    font-size: 1.8rem;
     font-family: 'Tahoma', sans-serif;
 }
 
