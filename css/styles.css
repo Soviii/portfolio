@@ -131,7 +131,6 @@ body {
 
 .school-description {
     margin: 0px;
-    font-family: 'Comic Neue', cursive;
     font-size: 2.65rem;
     font-weight: bold;
     text-align: center;
@@ -142,6 +141,7 @@ body {
     text-decoration: underline;
     font-size: 2.25rem;   
 }
+
 .school-logo {
     border-radius: 50px;
     background-color: white;
@@ -384,7 +384,7 @@ tr {
 }
 
 td {
-    font-family: 'Comic Neue', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     font-size: 2.30rem;
 }
 
