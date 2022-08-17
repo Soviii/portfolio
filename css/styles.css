@@ -24,7 +24,7 @@ body {
 }
 
 .follow-section:hover{
-    height: 166px;
+    height: 110px;
     background-color: gray;
     border-bottom-right-radius: 20px;
 }
