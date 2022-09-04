@@ -131,7 +131,7 @@ body {
 
 .school-description {
     margin: 0px;
-    font-size: 2.65rem;
+    font-size: 2.3rem;
     font-weight: bold;
     text-align: center;
     width: 100%;
@@ -139,7 +139,7 @@ body {
 
 .school-award-em {
     text-decoration: underline;
-    font-size: 2.25rem;   
+    font-size: 1.85rem;   
 }
 
 .school-logo {
@@ -213,14 +213,14 @@ body {
 
 .programming-table-cell {
     padding-right: 30px;
-    font-size: 2.3rem;
+    font-size: 1.9rem;
 }
 
 .programming-text-cell {
         width: 33%;
         margin-left: 30px;
         margin-right: 30px;
-        vertical-align: top;
+        vertical-align: top;        
 }
 
 .skills-dynamic-image {
@@ -261,6 +261,7 @@ body {
     margin: 0px auto 0px;
     font-size: 2rem;
     padding-bottom: 100px;
+    font-size: 1.65rem;
 }
 
 .work-images-cell {
@@ -385,7 +386,7 @@ tr {
 
 td {
     font-family: 'Tahoma', sans-serif;
-    font-size: 2.30rem;
+    font-size: 2rem;
 }
 
 
